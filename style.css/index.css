@@ -30,7 +30,16 @@ main {
     padding-top: 2rem;
 }
 
+/*target the first section element */
+
+main section:first-of-type {
+    display:flex; 
+}
+
+
+
 img {
+    /* try setting the width on the image container div, then set image to max-width: 100% and hieght to auto - see example we did in class */
     height: 450px;
     width: 450px;
     filter: grayscale(30)
