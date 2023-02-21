@@ -91,9 +91,7 @@ cite {
     justify-content: center;
     padding: 3px;
     font-size: 15px;
-
-
-
+/* remove empty space :) */
 }
 
 p {
@@ -105,18 +103,13 @@ p {
 }
 
 .wrapper {
-
-    width: 100%;
+    /*width: 100%; */
+    width : 80vw; /* set to 80% of the viewport */
+    margin: 0 auto; /* center the element in the middle */ 
     border: 10px dotted #34495e;
     box-sizing: border-box;
-
 }
-
-
-
-
-
-
+/* one empty line between rules */
 p {
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +130,7 @@ li:nth-child(odd) {
 
 ul,
 li {
-    list-style: circle;
+    list-style: circle; /*nice!*/ 
     background-color: #fff;
     font-style: italic;
     display: flexbox;
@@ -145,8 +138,6 @@ li {
     text-align: center;
     font-size: 16px;
     line-height: 25px;
-
-
 }
 
 footer {
